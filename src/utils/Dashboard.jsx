@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import * as THREE from "three";
+import * as THREE from 'three';
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { OrbitControls, Text3D, Float, Environment, PerspectiveCamera } from "@react-three/drei";
 
